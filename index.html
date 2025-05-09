@@ -1,13 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Website</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Segoe UI", sans-serif;
+      background-color: #f7f7f7;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      flex-direction: column;
+    }
+
+    img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 15px;
+      margin-top: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .button {
+      padding: 10px 20px;
+      text-decoration: none;
+      color: #fff;
+      background-color: #007acc;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+      font-weight: bold;
+    }
+
+    .button:hover {
+      background-color: #005eaa;
+    }
+  </style>
 </head>
 <body>
-    <h1>Welcome to My GitHub Page!</h1>
-    <p>This is my first GitHub-hosted website.</p>
-    <img src = "profile_picture.JPG">
+  <img src="profile_picture.JPG" alt="Your photo" />
+  <h1>Your Name</h1>
+  <p>Software Developer | Open to Work</p>
+  <div class="buttons">
+    <a class="button" href="https://github.com/yourusername" target="_blank">GitHub</a>
+    <a class="button" href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+    <a class="button" href="mailto:you@example.com">Email</a>
+  </div>
 </body>
 </html>
