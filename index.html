@@ -1,69 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Nice to meet you! I'm Daniel!</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: "Segoe UI", sans-serif;
-      background-color: #fff7f7;
-      color: #333;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      flex-direction: column;
-    }
 
-    img {
-      width: 500px;
-      height: 500px;
-      border-radius: 50%;
-      object-fit: cover;
-      margin-top: 220px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    }
-
-    h1 {
-      font-size: 1.8rem;
-      margin-bottom: 10px;
-    }
-
-    .buttons {
-      display: flex;
-      gap: 15px;
-      margin-top: 20px;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-
-    .button {
-      padding: 10px 20px;
-      text-decoration: none;
-      color: #fff;
-      background-color: #007acc;
-      border-radius: 8px;
-      transition: background-color 0.3s ease;
-      font-weight: bold;
-    }
-
-    .button:hover {
-      background-color: #005eaa;
-    }
-  </style>
 </head>
 <body>
-  <img src="profile_picture.JPG" alt="Dee" />
+
+<div class="diamond-container">
+</div>
+<div>
   <h1>Daniel Golubovic</h1>
-  <p>Software Developer</p>
-  <div class="buttons">
-    <a class="button" href="https://github.com/Snickerdee" target="_blank">GitHub</a>
-    <a class="button" href="https://www.linkedin.com/in/daniel-golubovic-26100184/" target="_blank">LinkedIn</a>
-    <a class="button" href="https://drive.google.com/file/d/1fxqtL3uZRWpfWiszwJA9W2OFxc2n0Jlx/view?usp=drive_link" target="_blank">Lebenslauf</a>
-    <a class="button" href="mailto:daniel.golubovic@protonmail.com">Email</a>
-  </div>
+  <h3>Software Developer</h3>
+</div>
+<div class="grid">
+  <button role="button" onclick=window.location.href="https://github.com/Snickerdee">GitHub</button>
+  <button role="button" onclick=window.location.href="https://www.linkedin.com/in/daniel-golubovic-26100184/">Linkedin</button>
+  <button role="button" onclick=window.location.href="https://www.xing.com/profile/Daniel_Golubovic2">Xing</button>
+  <button role="button" onclick=window.location.href="https://drive.google.com/file/d/1fxqtL3uZRWpfWiszwJA9W2OFxc2n0Jlx/view?usp=sharing">Lebenslauf</button>
+</div>
+
+
 </body>
 </html>
