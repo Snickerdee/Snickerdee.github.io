@@ -110,7 +110,7 @@ button.icon svg,
 body {
     background-attachment: scroll;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center center;
     margin: 0;
     padding: 0;
