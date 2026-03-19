@@ -30,22 +30,23 @@ html {
 
 
 body {
-    background-attachment: scroll;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: 0;
-    padding: 0;
-    font-family: "Segoe UI", sans-serif;
-    background-image: radial-gradient(ellipse at top right, darkgoldenrod -40%, #ecebeb 25%, lightgoldenrodyellow 50%, white 75%, darkgoldenrod 140%);
-
     color: #333;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100dvh;
+
     flex-direction: column;
+    background-image: radial-gradient(ellipse at top right, darkgoldenrod -40%, #ecebeb 25%, lightgoldenrodyellow 50%, white 75%, darkgoldenrod 140%);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+
+    font-family: "Segoe UI", sans-serif;
+    min-height: 100dvh;
+    min-width: 100dvw;
 }
+
 
 main {
     display: flex;
@@ -54,24 +55,10 @@ main {
     padding: 50px;
     gap: 50px;
     flex-wrap: wrap;
-}
-
-
-@media (max-width: 768px) { /* Oder 600px, je nach Design */
-    main {
-        flex-direction: column;
-        padding: 20px; /* Reduziere Padding */
-        gap: 30px;
-    }
-
-
-
-    h1 {
-        font-size: 1.5rem; /* Kleinere Schrift */
-    }
-
 
 }
+
+
 .text-container {
     display: flex; /* Fehlte: Mach es zu Flex-Container */
     flex-direction: column;
@@ -105,7 +92,7 @@ img {
     max-width: 1000px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 150px 150px 150px 150px;
+    grid-template-columns: 150px 150px;
     align-items: center;
     justify-content: center;
     grid-gap: 40px 25px;
