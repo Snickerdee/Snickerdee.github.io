@@ -24,14 +24,7 @@
 html {
     height: 100%;
 }
-@media(max-width: 768px){
-body {
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-}
+
 .grid {
     max-width: 1000px;
     margin: 0 auto;
@@ -113,7 +106,12 @@ button.icon svg,
     width: 30px;
     height: 30px;
 }
+
 body {
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     margin: 0;
     padding: 0;
     font-family: "Segoe UI", sans-serif;
@@ -126,7 +124,6 @@ body {
     min-height: 100vh;
     flex-direction: column;
 }
-
 
 main {
     display: flex;
